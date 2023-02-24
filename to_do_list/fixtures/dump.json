@@ -1,0 +1,234 @@
+[
+{
+  "model": "to_do_list.task",
+  "pk": 1,
+  "fields": {
+    "title": "Помыть машину",
+    "status": "DONE",
+    "date_to_do": "2023-02-13",
+    "description": "Помыть машину на автомойке",
+    "created_at": "2023-02-23T13:18:17.310Z",
+    "updated_at": "2023-02-23T23:24:51.217Z",
+    "is_deleted": false,
+    "deleted_at": "2023-02-23T23:24:51.217Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 2,
+  "fields": {
+    "title": "Подстричь собак",
+    "status": "DONE",
+    "date_to_do": "2023-02-15",
+    "description": "Отвезти собак к грумеру",
+    "created_at": "2023-02-23T13:19:52.308Z",
+    "updated_at": "2023-02-23T23:24:59.954Z",
+    "is_deleted": false,
+    "deleted_at": "2023-02-23T23:24:59.954Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 3,
+  "fields": {
+    "title": "Купить продукты",
+    "status": "IN_PROCESS",
+    "date_to_do": "2023-02-23",
+    "description": "Lorem ipsun",
+    "created_at": "2023-02-23T13:29:40.823Z",
+    "updated_at": "2023-02-23T23:17:59.111Z",
+    "is_deleted": false,
+    "deleted_at": "2023-02-23T23:17:59.111Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 4,
+  "fields": {
+    "title": "Заплатить налоги",
+    "status": "IN_PROCESS",
+    "date_to_do": "2023-02-16",
+    "description": "Заплатить налоги Заплатить налоги",
+    "created_at": "2023-02-23T13:30:12.398Z",
+    "updated_at": "2023-02-23T22:03:07.568Z",
+    "is_deleted": false,
+    "deleted_at": "2023-02-23T22:03:07.568Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 5,
+  "fields": {
+    "title": "Сходить в кино",
+    "status": "NEW",
+    "date_to_do": "2023-02-25",
+    "description": "Сходить в кино Сходить в кино Сходить в кино Сходить в кино Сходить в кино Сходить в кино",
+    "created_at": "2023-02-23T23:08:59.999Z",
+    "updated_at": "2023-02-23T23:31:31.047Z",
+    "is_deleted": false,
+    "deleted_at": "2023-02-23T23:31:31.047Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 9,
+  "fields": {
+    "title": "гк5г5ыг",
+    "status": "DONE",
+    "date_to_do": "2023-03-03",
+    "description": "раьлчаноькчеа",
+    "created_at": "2023-02-23T23:16:17.799Z",
+    "updated_at": "2023-02-23T23:52:14.098Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-23T23:52:14.098Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 10,
+  "fields": {
+    "title": "откевокео",
+    "status": "NEW",
+    "date_to_do": "2023-02-23",
+    "description": "веотчеаокчеао",
+    "created_at": "2023-02-23T23:16:39.711Z",
+    "updated_at": "2023-02-23T23:52:14.085Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-23T23:52:14.085Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 11,
+  "fields": {
+    "title": "оьенлокечао",
+    "status": "IN_PROCESS",
+    "date_to_do": "2023-03-03",
+    "description": "рчеогекчго",
+    "created_at": "2023-02-23T23:16:52.501Z",
+    "updated_at": "2023-02-23T23:52:14.065Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-23T23:52:14.065Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 12,
+  "fields": {
+    "title": "htrjurt",
+    "status": "NEW",
+    "date_to_do": "2023-03-03",
+    "description": "hndxtjt",
+    "created_at": "2023-02-23T23:21:51.296Z",
+    "updated_at": "2023-02-23T23:52:14.034Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-23T23:52:14.034Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 13,
+  "fields": {
+    "title": "j,gh,ykg",
+    "status": "NEW",
+    "date_to_do": "kmyct",
+    "description": "yctkty",
+    "created_at": "2023-02-23T23:22:01.333Z",
+    "updated_at": "2023-02-23T23:52:14.052Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-23T23:52:14.052Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 14,
+  "fields": {
+    "title": "cyk,cgk",
+    "status": "IN_PROCESS",
+    "date_to_do": "2023-03-03",
+    "description": "fxmjtkxfj",
+    "created_at": "2023-02-23T23:22:21.492Z",
+    "updated_at": "2023-02-23T23:52:14.107Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-23T23:52:14.107Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 15,
+  "fields": {
+    "title": "Сделать домашку",
+    "status": "NEW",
+    "date_to_do": "2023-02-23",
+    "description": "Создайте включаемый шаблон для формы задачи и используйте его на страницах создания и обновления задачи.\r\n\r\nНа странице создания добавьте валидацию",
+    "created_at": "2023-02-23T23:41:06.640Z",
+    "updated_at": "2023-02-23T23:41:06.641Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 16,
+  "fields": {
+    "title": "втва",
+    "status": "DONE",
+    "date_to_do": "2023-02-23",
+    "description": "тасто",
+    "created_at": "2023-02-23T23:49:58.291Z",
+    "updated_at": "2023-02-23T23:52:14.074Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-23T23:52:14.074Z"
+  }
+},
+{
+  "model": "to_do_list.task",
+  "pk": 17,
+  "fields": {
+    "title": "vhuk",
+    "status": "IN_PROCESS",
+    "date_to_do": "2023-02-09",
+    "description": "zs n",
+    "created_at": "2023-02-24T00:53:04.594Z",
+    "updated_at": "2023-02-24T00:53:23.924Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-24T00:53:23.924Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$4CFgIbEmPJ0kYmDVsAUAWL$a/MspsHcrcF7gRDyM8Iv45CfnhZpwwv9PmbMPNV8koI=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "ana",
+    "first_name": "",
+    "last_name": "",
+    "email": "anakess88@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-17T02:50:26.516Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$23X0q95xipK3bKGZZIO8rT$cnVskSQYoD1JH8BeV2RcvDGzUHgv092OMHNS1/qH9gU=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-24T00:56:41.866Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
