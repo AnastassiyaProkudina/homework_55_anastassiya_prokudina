@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Task Update{% endblock %}
+{% block content %}
+    <div class="form-box">
+        <h1>Редактировать</h1>
+        <div class="form">
+            <form action="{% url 'task_update' task.id %}" method="post">
+                {% include 'partial/task_form.html' with button_text='Изменить' %}
+            </form>
+        </div>
+    </div>
+{% endblock %}
+

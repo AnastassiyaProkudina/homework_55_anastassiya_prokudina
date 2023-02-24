@@ -1,0 +1,27 @@
+<div class="card-size-300 card border-secondary card-shadow m-4">
+    {% include 'partial/task_status.html' with style='card-header' %}
+    <div class="card-body">
+        <p class="card-text">Дата выполнения: {{ task.date_to_do }}</p>
+        <h5 class="card-title">{{ task.title }}</h5>
+    </div>
+    {% if footer == 'tasks' %}
+        <div class="card-footer border-secondary">
+            <a href="{% url 'task_detail' task.id %}" class="btn btn-light">Подробнее</a>
+        </div>
+    {% elif footer == 'task' %}
+        <div class="card-description">{{ task.description }}</div>
+        <div class="card-style card-footer border-secondary">
+            <a class="btn btn-light" href="{% url 'task_update' task.id %}" role="button">Изменить</a>
+            <a class="btn btn-dark" href="{% url 'task_delete' task.id %}" role="button">Удалить</a>
+        </div>
+    {% elif footer == 'delete' %}
+        <div class="card-style card-footer border-secondary">
+            <form action="{% url 'task_confirm_delete' task.pk %}" method="post">
+                {% csrf_token %}
+                <input type="submit" class="btn btn-dark" value="Удалить">
+                <a href="{% url 'index' %}" class="btn btn-light">Отмена</a>
+            </form>
+        </div>
+    {% endif %}
+</div>
+

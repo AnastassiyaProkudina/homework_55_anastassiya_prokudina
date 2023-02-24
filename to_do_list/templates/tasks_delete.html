@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Tasks Delete{% endblock %}
+{% block content %}
+    <div class="table-box form-box card-shadow">
+        <form action="{% url 'tasks_delete' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <table class="table">
+                <thead class="thead-dark" >
+                    <tr>
+                        <th scope="col" class="th-style">#</th>
+                        <th scope="col" class="th-style">Заголовок</th>
+                        <th scope="col" class="th-style">Статус</th>
+                        <th scope="col" class="th-style">Дата выполнения</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for task in tasks %}
+                        <tr>
+                            <th scope="row"><input type="checkbox" name="{{ task.pk }}" id="check"></th>
+                            <td>{{ task.title }}</td>
+                            <td>{% include 'partial/task_status.html' with style=''%}</td>
+                            <td>{{ task.date_to_do }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <input type="submit" class="btn btn-dark" value="Удалить">
+        </form>
+    </div>
+{% endblock %}
+

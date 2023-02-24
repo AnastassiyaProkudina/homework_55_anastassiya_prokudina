@@ -1,0 +1,5 @@
+{% for choice in choices %}
+    {% if choice.0 == task.status %}
+        <div class="{{ style }} border-secondary">{{ choice.1 }}</div>
+    {%  endif %}
+{% endfor %}
